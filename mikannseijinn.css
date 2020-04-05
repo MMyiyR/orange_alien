@@ -1,14 +1,41 @@
-img {
+.mikann {
   height: 100px;
   width: 100px;
 }
-h2 ,a {
+h2 ,.letter {
   font-family: 'arial'
 }
 h2 {
-  border-bottom: 2px solid black;
-  padding: 0px 0px 5px 0px;
+  border-bottom: 2px solid gray;
+  padding-bottom: 5px;
+  margin-bottom: 30px;
 }
 body {
   padding: 10px;
+}
+.main {
+  height: 400px;
+}
+.letter {
+  color: black;
+  font-size: 20px;
+}
+p {
+  padding: 5px 0px;
+}
+.footer {
+  height: 100px;
+}
+.kyomu {
+  height: 150px;
+  width: 150px;
+  padding: 0px 50px;
+}
+textarea {
+  width: 250px;
+  height: 50px;
+}
+button {
+  width: 100px;
+  margin: 0px 75px;
 }
