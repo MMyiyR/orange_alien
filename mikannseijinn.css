@@ -1,6 +1,6 @@
 .mikann {
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
 }
 h2 ,.letter ,title {
   font-family: 'arial'
@@ -29,15 +29,15 @@ p {
   height: 100px;
 }
 .kyomu {
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
   padding: 0px 50px;
 }
 textarea {
-  width: 250px;
+  width: 200px;
   height: 50px;
 }
 button {
   width: 100px;
-  margin: 0px 75px;
+  margin: 0px 50px;
 }
