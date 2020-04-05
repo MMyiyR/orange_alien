@@ -2,10 +2,10 @@
   height: 100px;
   width: 100px;
 }
-h2 ,.letter {
+h2 ,.letter ,title {
   font-family: 'arial'
 }
-h2 {
+h2 ,title {
   border-bottom: 2px solid gray;
   padding-bottom: 5px;
   margin-bottom: 40px;
