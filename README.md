@@ -3,9 +3,7 @@
   <head>
 
     <meta charset="utf-8">
-    <title>
-     <img class="mikann" src="https://raw.githubusercontent.com/MMyiyR/orange_alien/master/%E3%81%BF%E3%81%8B%E3%82%93%E6%98%9F%E4%BA%BA%E9%A1%94.jpg">
-    </title>
+    <title>orange_alien</title>
     <link rel="stylesheet" href="mikannseijinn.css">
 
   </head>
