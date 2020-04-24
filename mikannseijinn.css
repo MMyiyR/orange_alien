@@ -46,8 +46,10 @@ p {
 .yotei {
   color: black;
 }
-.MMyiy_R {
+.foot {
   font-size: 10px;
-  padding-top: 70px;
   color: #555555;
+}
+.MMyiy_R {
+  padding-top: 70px;
 }
