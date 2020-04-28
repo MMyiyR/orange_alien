@@ -2,9 +2,9 @@
   text-align: center;
   margin: 0 auto;
   font-family: Montserrat,'Sawarabi Gothic',"游ゴシック","Yu Gothic","游ゴシック体",YuGothic,"Yu Gothic UI","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","Meiryo UI","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
-  max-width:500px;
+  max-width: 500px;
   width: 100%;
-  letter-spacing: 2px;
+  letter-spacing: 10px;
 }
 body {
   padding-top: 10px;
@@ -37,7 +37,8 @@ p {
   font-weight: normal;
 }
 .letter:hover {
-  opacity: 0.6;
+  letter-spacing: 30px;
+  transition: all 0.1s;
 }
 .twitter {
   padding-top: 50px;
@@ -47,7 +48,7 @@ p {
   color: #777777;
 }
 .end {
-  font-size:12px;
+  font-size: 12px;
 }
 .yotei {
   color: black;
