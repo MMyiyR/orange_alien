@@ -20,8 +20,8 @@ h4 {
 p {
   font-size: 15px;
 }
-.border-bottom {
-  border-bottom: 1px solid gray;
+.social {
+  opacity: 0;
 }
 .URLs {
   padding-top: 20px;
@@ -42,6 +42,7 @@ p {
 }
 .twitter {
   padding-top: 50px;
+  border-top: 1px solid gray;
 }
 .ends {
   padding-top: 130px;
@@ -60,3 +61,4 @@ p {
 .MMyiy_R {
   padding-top: 20px;
 }
+
