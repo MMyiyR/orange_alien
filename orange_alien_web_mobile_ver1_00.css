@@ -32,5 +32,8 @@ p {
   font-weight: normal;
   padding-top: 35px;
 }
+.p {
+  font-size: 15px;
+}
 
 }
