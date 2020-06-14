@@ -1,0 +1,18 @@
+/* タブレット */
+@media (max-width: 700px) {
+
+header h1 {
+  font-size: 30px;
+  margin: 10px;
+}
+
+}
+
+/* スマホ */
+@media (max-width: 520px) {
+
+header h1 {
+  text-align: left;
+}
+
+}
