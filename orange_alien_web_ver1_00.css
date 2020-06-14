@@ -6,19 +6,23 @@
 
 .image {
   position: fixed;
+  top: 0;
   opacity: 0.1;
   display: none;
   z-index: 10;
+  height: 100%;
 }
 
 .all {
   max-width: 1000px;
+  margin: 2vmin 2.2vmin;
+  margin: 0 auto;
 }
 
 
 header h1 {
   width: 100%;
-  font-size: 35px;
+  font-size: 45px;
   margin: 15px;
   text-align: center;
   font-weight: normal;
@@ -62,6 +66,7 @@ main {
 .main-list {
   list-style: none;
   padding-top: 10px;
+  padding-left: 20px;
 }
 
 p {
