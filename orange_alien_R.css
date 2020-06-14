@@ -1,61 +1,90 @@
 *{
-  text-align: center;
   margin: 0 auto;
   font-family: Montserrat,'Sawarabi Gothic',"游ゴシック","Yu Gothic","游ゴシック体",YuGothic,"Yu Gothic UI","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","Meiryo UI","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
-  max-width: 500px;
-  width: 100%;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
 }
-body {
+
+.image {
+  position: fixed;
+  opacity: 0.1;
+  display: none;
+  z-index: 10;
+}
+
+.all {
+  max-width: 1000px;
+}
+
+
+header h1 {
+  width: 100%;
+  font-size: 35px;
+  margin: 15px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.header_list {
+  list-style: none;
+  display: flex;
+  height: 50px;
+  font-size: 30px;
+  border-top: 1px grey solid;
+  border-bottom: 1px grey solid;
+  padding: 5px;
+}
+.kyomu {
+  height: 45px;
+  width: 45px;
+}
+.lists {
+  cursor: pointer;
+}
+
+.kugiri ,h1 {
+  cursor: default;
+}
+.kugiri {
+  margin: 0;
+  padding: 0;
+  color: grey;
+}
+
+.opacity {
+  opacity: 0.7;
+}
+
+main {
+  padding: 40px;
+  font-weight: bold;
+}
+
+.main-list {
+  list-style: none;
   padding-top: 10px;
 }
-.mikann {
-  height: 70px;
-  width: 70px;
-}
-h4 {
-  font-weight: normal;
-  font-size: 30px;
-}
+
 p {
-  font-size: 15px;
+  font-size: 19px;
+  padding-top: 25px;
 }
-.social {
-  opacity: 0;
-}
-.URLs {
-  padding-top: 20px;
-}
-.URLs p {
-  font-size: 13px;
-}
-.letters {
-  color: black;
-  font-size: 23px;
+
+.link {
   text-decoration: none;
-  border-bottom: 1px gray dashed;
-  font-weight: normal;
+  color: #333333;
+  font-size: 30px;
+  border-bottom: 1px #444444 dashed;
 }
-.letter:hover {
-  letter-spacing: 50px;
-  transition: all 0.1s;
+.link:hover {
+  opacity: 0.7;
 }
-.twitter {
-  padding-top: 50px;
-  border-top: 1px solid gray;
+
+
+/* active */
+.mains {
+  display: none;
 }
-.ends {
-  padding-top: 130px;
-  color: #777777;
-}
-.end {
-  font-size: 10px;
-}
-.yotei {
-  color: black;
-}
-.MMyiy_R {
-  font-size: 8px;
-  color: #555555;
-  padding-top: 20px;
+
+.block {
+  display: block;
 }
