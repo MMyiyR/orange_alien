@@ -1,6 +1,10 @@
 /* タブレット */
 @media (max-width: 700px) {
 
+image {
+  height: 100%;
+}
+
 header h1 {
   font-size: 20px;
   margin: 10px;
