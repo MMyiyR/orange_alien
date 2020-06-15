@@ -28,6 +28,10 @@ main {
 /* スマホ */
 @media (max-width: 520px) {
 
+.image {
+  height: 100%;
+}
+
 header h1 {
   text-align: left;
 }
