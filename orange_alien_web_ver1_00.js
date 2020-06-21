@@ -1,8 +1,8 @@
 $(function() {
 
   $('.home').click(function() {
-    $('.opacity').removeClass('opacity');
-    $('.home').addClass('opacity');
+    $('.active').removeClass('active');
+    $('.home').addClass('active');
 
   	$('.mains').animate({'margin-top':'10px'},300,function(){
   	  $('.mains').animate({'margin-left':'10px','opacity':'0'},150,function(){
@@ -17,8 +17,8 @@ $(function() {
   });
 
   $('.about').click(function() {
-    $('.opacity').removeClass('opacity');
-    $('.about').addClass('opacity');
+    $('.active').removeClass('active');
+    $('.about').addClass('active');
 
     $('.mains').animate({'margin-top':'10px'},300,function(){
   	  $('.mains').animate({'margin-left':'10px','opacity':'0'},150,function(){
@@ -33,8 +33,8 @@ $(function() {
   });
 
   $('.links').click(function() {
-    $('.opacity').removeClass('opacity');
-    $('.links').addClass('opacity');
+    $('.active').removeClass('active');
+    $('.links').addClass('active');
 
     $('.mains').animate({'margin-top':'10px'},300,function(){
   	  $('.mains').animate({'margin-left':'10px','opacity':'0'},150,function(){
