@@ -1,16 +1,9 @@
-*{
+* {
   margin: 0 auto;
-  font-family: Montserrat,'Sawarabi Gothic',"游ゴシック","Yu Gothic","游ゴシック体",YuGothic,"Yu Gothic UI","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","Meiryo UI","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
-  letter-spacing: 4px;
+  font-family: Lato;
 }
-
-.image {
-  position: fixed;
-  top: 0;
-  opacity: 0.1;
-  display: none;
-  z-index: 10;
-  width: 100%;
+body {
+  background-color: #FAFAFA;
 }
 
 .all {
@@ -19,48 +12,63 @@
   margin: 0 auto;
 }
 
-
 header h1 {
   width: 100%;
-  font-size: 45px;
-  margin: 15px;
+  font-size: 40px;
+  padding: 30px 0px 20px 0px;
   text-align: center;
-  font-weight: normal;
 }
 
 .header_list {
   list-style: none;
   display: flex;
-  height: 50px;
+  height: 60px;
   font-size: 30px;
-  border-top: 1px grey solid;
-  border-bottom: 1px grey solid;
   padding: 5px;
 }
-.kyomu {
-  height: 45px;
-  width: 45px;
+
+.yohaku {
+  height: 100%;
+  width: 13%;
+  border-top: 1px grey solid;
+  border-bottom: 1px grey solid;
+}
+.home {
+  height: 100%;
+  width: 25%;
+  text-align: center;
+  border-top: 1px grey solid;
+  border-bottom: 1px grey solid;
+}
+.about {
+  height: 100%;
+  width: 24%;
+  text-align: center;
+  border-top: 1px grey solid;
+  border-bottom: 1px grey solid;
+}
+.links {
+  height: 100%;
+  width: 25%;
+  text-align: center;
+  border-top: 1px grey solid;
+  border-bottom: 1px grey solid;
 }
 .lists {
   cursor: pointer;
-}
-
-.kugiri ,h1 {
-  cursor: default;
-}
-.kugiri {
-  margin: 0;
-  padding: 0;
-  color: grey;
+  line-height: 58px;
 }
 
 .opacity {
-  opacity: 0.7;
+  background-color: white;
+  border-bottom: none;
 }
 
 main {
   padding: 40px;
   font-weight: bold;
+  height: 400px;
+  background-color: white;
 }
 
 .main-list {
