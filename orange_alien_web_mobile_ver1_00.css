@@ -27,12 +27,24 @@ header h1 {
   text-align: left;
 }
 
+.header_list {
+  font-size: 20px;
+  height: 30px;
+}
+.lists {
+  line-height: 30px;
+}
+
 p {
   font-weight: normal;
   padding-top: 35px;
 }
 .p {
   font-size: 15px;
+}
+.link {
+  font-size: 20px;
+  letter-spacing: 1px;
 }
 
 }
