@@ -10,6 +10,9 @@ body {
   margin: 2vmin 2.2vmin;
   margin: 0 auto;
 }
+ul {
+  padding-left: 0px;
+}
 .list {
   list-style: none;
   display: flex;
@@ -89,7 +92,6 @@ main {
 .main-list {
   list-style: none;
   padding-top: 10px;
-  padding-left: 20px;
 }
 
 p {
