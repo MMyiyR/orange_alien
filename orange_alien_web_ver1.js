@@ -48,4 +48,20 @@ $(function() {
 
   });
 
+  $('.favs').click(function() {
+    $('.active').removeClass('active');
+    $('.favs').addClass('active');
+
+  	$('.mains').animate({'margin-top':'10px'},300,function(){
+  	  $('.mains').animate({'margin-left':'10px','opacity':'0'},150,function(){
+        $('.mains').removeClass('block');
+        $('.favs-main').addClass('block');
+        $('.mains').animate({'margin-left':'0px','opacity':'1'},150,function(){
+		      $('.mains').animate({'margin-top':'0px',},100).dequeue();
+	      });
+      });
+	  });
+
+  });
+
 });
