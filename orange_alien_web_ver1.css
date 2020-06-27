@@ -51,10 +51,16 @@ header h1 {
   border-top: 1px grey solid;
   border-bottom: 1px grey solid;
 }
+.about-list {
+  display: flex;
+  width: 100%;
+}
+.li {
+  width: 100%;
+}
 .image {
-  height: 90%;
   width: 90%;
-  padding: 5%;
+  margin: 5%;
 }
 
 .links {
