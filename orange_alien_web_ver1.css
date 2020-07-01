@@ -4,6 +4,7 @@
 }
 body {
   background-color: #FAFAFA;
+  display: none;
 }
 .all {
   max-width: 1000px;
