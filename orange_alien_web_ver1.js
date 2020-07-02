@@ -2,6 +2,24 @@ $(function() {
 $('body').fadeIn();
 
 
+var opacity1 = function() {
+  $('#fadeing1').animate({'opacity':'0.8'},1000,function(){
+    $('#fadeing1').animate({'opacity':'1'},1000).dequeue();
+    setTimeout(opacity1, 1000);
+  })
+}
+opacity1();
+
+var opacity2 = function() {
+  $('#fadeing2').animate({'opacity':'0.8'},1000,function(){
+    $('#fadeing2').animate({'opacity':'1'},1000).dequeue();
+    setTimeout(opacity2, 1000);
+  })
+}
+opacity2();
+
+
+
   $('.home').click(function() {
     $('.active').removeClass('active');
     $('.home').addClass('active');
