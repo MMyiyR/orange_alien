@@ -6,6 +6,25 @@ body {
   background-color: #FAFAFA;
   display: none;
 }
+
+.fixed-images {
+}
+.kyomu-icon1 {
+  position: fixed;
+  width: 8vw;
+  top: 0;
+  right: 0;
+  padding-right: calc(10px + 3vmin);
+  opacity: 1;
+}
+.kyomu-icon2 {
+  position: fixed;
+  width: 8vw;
+  top: 280px;
+  left: 0;
+  opacity: 1;
+}
+
 .all {
   max-width: 1000px;
   margin: 2vmin 2.2vmin;
