@@ -1,10 +1,22 @@
 /* タブレット */
 @media (max-width: 700px) {
 
-header h1 {
-  font-size: 20px;
-  margin: 15px 10px 10px 10px;
-  padding: 0;
+.logo {
+  height: 80px;
+  margin: 0 auto;
+}
+.OREN {
+  opacity: 0;
+  height: 40px;
+  padding: 25px 0px 15px 0px;
+}
+
+.logo-OREN {
+  height: 80%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  position: fixed;
 }
 
 .header_list {
@@ -24,8 +36,22 @@ main {
 /* スマホ */
 @media (max-width: 520px) {
 
-header h1 {
-  text-align: left;
+.logo {
+  height: 40px;
+  margin: 0 auto;
+}
+.OREN {
+  opacity: 0;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+}
+
+.logo-OREN {
+  height: 80%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  position: fixed;
 }
 
 .header_list {
