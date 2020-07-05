@@ -4,11 +4,51 @@
 }
 body {
   background-color: #FAFAFA;
+}
+.all {
   display: none;
 }
 
-.fixed-images {
+
+.logo {
+  height: 95px;
+  margin: 0 auto;
 }
+.OREN {
+  opacity: 0;
+  height: 45px;
+  padding: 30px 0px 20px 0px;
+}
+
+.logo-OREN {
+  height: 80%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  position: fixed;
+}
+
+.mikan-background-color {
+  display: none;
+  position: fixed;
+  z-index: 9;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.mikan-ue {
+  display: none;
+  position: fixed;
+  z-index: 9;
+  width: 100%;
+}
+.mikan-yoko {
+  display: none;
+  position: fixed;
+  z-index: 9;
+  height: 100%;
+}
+
 .kyomu-icon1 {
   position: fixed;
   width: 8vw;
@@ -16,13 +56,20 @@ body {
   right: 0;
   padding-right: calc(10px + 3vmin);
   opacity: 1;
+  cursor: pointer;
+  z-index: 8;
 }
 .kyomu-icon2 {
   position: fixed;
-  width: 8vw;
-  top: 280px;
+  height: 8vw;
+  top: 80%;
   left: 0;
   opacity: 1;
+  cursor: pointer;
+  z-index: 8;
+}
+.mu {
+  z-index: 999;
 }
 
 .all {
@@ -38,12 +85,6 @@ ul {
   display: flex;
 }
 
-header h1 {
-  width: 100%;
-  font-size: 40px;
-  padding: 30px 0px 20px 0px;
-  text-align: center;
-}
 
 .header_list {
   height: 60px;
@@ -90,7 +131,7 @@ header h1 {
   border-top: 1px grey solid;
   border-bottom: 1px grey solid;
 }
-.favs {
+.M---- {
   height: 100%;
   width: 20%;
   text-align: center;
