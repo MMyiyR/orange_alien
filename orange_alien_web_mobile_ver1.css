@@ -6,13 +6,12 @@
   margin: 0 auto;
 }
 .OREN {
-  opacity: 0;
   height: 40px;
   padding: 25px 0px 15px 0px;
 }
 
 .logo-OREN {
-  height: 80%;
+  height: 0%;
   width: 100%;
   display: grid;
   place-items: center;
@@ -41,14 +40,13 @@ main {
   margin: 0 auto;
 }
 .OREN {
-  opacity: 0;
   height: 20px;
   padding: 10px 10px 10px 10px;
 }
 
 .logo-OREN {
-  height: 80%;
-  width: 100%;
+  height: 0%;
+  width: 25%;
   display: grid;
   place-items: center;
   position: fixed;
@@ -75,3 +73,4 @@ p {
 }
 
 }
+
