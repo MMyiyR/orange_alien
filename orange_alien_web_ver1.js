@@ -1,23 +1,6 @@
 $(function() {
 
-
-  if ($(window).width() > 520) {
-    $('.OREN').animate({'opacity':'1'},2000,function(){
-      $('.logo-OREN').animate({'height':'0'},1000,function(){
-        $('.all').fadeIn(1000).dequeue();
-      });
-    });
-
-  } else {
-    $('.OREN').animate({'opacity':'1'},2000,function(){
-      $('.logo-OREN').animate({'height':'5%','width': '25%'},1000,function(){
-        $('.all').fadeIn(1000).dequeue();
-      });
-    });
-
-  }
-
-
+  $('.all').fadeIn(1000);
 
 var opacity1 = function() {
   $('#fadeing1').animate({'opacity':'0.6'},1000,function(){
@@ -84,4 +67,3 @@ opacity2();
   });
 
 });
-
