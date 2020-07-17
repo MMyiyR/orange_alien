@@ -136,6 +136,7 @@ ul {
 .active {
   background-color: white;
   border-bottom: none;
+  cursor: default;
 }
 
 main {
