@@ -49,39 +49,22 @@ $('.about').click(function() {
   }
 });
 
-// links
-$('.links').click(function() {
-  if ( $('.links').hasClass('active') ) {
+
+
+// ----s
+$('.----s').click(function() {
+  if ( $('.----s').hasClass('active') ) {
 
   ;
 
   } else {
 
     $('.active').removeClass('active');
-    $('.links').addClass('active');
+    $('.----s').addClass('active');
 
   	$('.mains').animate({'margin-left':'10px','opacity':'0'},150,function(){
       $('.mains').removeClass('block');
-      $('.links-main').addClass('block');
-      $('.mains').animate({'margin-left':'0px','opacity':'1'},150).dequeue();
-	  });
-  }
-});
-
-// m----
-$('.M----').click(function() {
-  if ( $('.M----').hasClass('active') ) {
-
-  ;
-
-  } else {
-
-    $('.active').removeClass('active');
-    $('.M----').addClass('active');
-
-  	$('.mains').animate({'margin-left':'10px','opacity':'0'},150,function(){
-      $('.mains').removeClass('block');
-      $('.M-----main').addClass('block');
+      $('.----s-main').addClass('block');
       $('.mains').animate({'margin-left':'0px','opacity':'1'},150).dequeue();
 	  });
   }
